@@ -1,0 +1,15 @@
+let a = 0;
+let b = 1;
+let i = 0;
+let temp = 0;
+
+out a;
+out b;
+
+loop i < 8 {
+    temp = a + b;
+    out temp;
+    a = b;
+    b = temp;
+    i = i + 1;
+}

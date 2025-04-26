@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "parser.tab.h": "c",
+        "ast_header.h": "c"
+    }
+}
