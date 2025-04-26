@@ -1,15 +1,13 @@
-let a = 0;
-let b = 1;
-let i = 0;
-let temp = 0;
+let n = 10;
+let num1 = 0;
+let num2 = 1;
+let nextNum = 0;
+let count = 0;
 
-out a;
-out b;
-
-loop i < 8 {
-    temp = a + b;
-    out temp;
-    a = b;
-    b = temp;
-    i = i + 1;
+loop count < n {
+    out num1;
+    nextNum = num1 + num2;
+    num1 = num2;
+    num2 = nextNum;
+    count = count + 1;
 }

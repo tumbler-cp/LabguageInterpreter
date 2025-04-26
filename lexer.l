@@ -19,7 +19,7 @@ ID      {LETTER}({LETTER}|{DIGIT})*
 "let"       { return LET; }
 "when"      { return WHEN; }
 "then"      { return THEN; }
-"other"     { return OTHER; }
+"otherwise" { return OTHER; }
 "loop"      { return LOOP; }
 "out"       { return OUT; }
 "and"       { return AND; }

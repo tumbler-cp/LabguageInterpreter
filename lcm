@@ -1,0 +1,21 @@
+let num1 = 17;
+let num2 = 17;
+
+let greater = 0;
+let smaller = 0;
+
+when num1 > num2 then {
+    greater = num1;
+    smaller = num2;
+} otherwise {
+    greater = num2;
+    smaller = num1;
+}
+
+let i = greater;
+
+loop not (i % greater is 0 and i % smaller is 0) {
+    i = i + greater;
+}
+
+out i;
